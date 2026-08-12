@@ -1,0 +1,9 @@
+pandas 
+numpy
+matplotlib
+sqlalchemy
+reportlab
+streamlit
+pytsk3
+python-registry
+pillow

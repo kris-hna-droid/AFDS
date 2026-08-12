@@ -1,0 +1,65 @@
+========================================
+       AFDS FORENSIC ANALYSIS REPORT
+========================================
+
+Evidence File:
+C:\Users\HP\Downloads\AFDS\evidence\test_folder\test_event_log.txt
+
+Analysis Time:
+2026-07-29 13:41:57
+
+----------------------------------------
+----------------------------------------
+METADATA ANALYSIS
+----------------------------------------
+Risk Level: LOW
+File Name: test_event_log.txt
+Extension: .txt
+Size: 122 bytes
+Path: C:\Users\HP\Downloads\AFDS\evidence\test_folder\test_event_log.txt
+Read Only: False
+Hidden: False
+Findings:
+- No suspicious metadata detected.
+
+OVERALL RISK ASSESSMENT
+----------------------------------------
+Risk Score: 20.00
+Risk Level: LOW
+
+----------------------------------------
+TIMESTAMP ANALYSIS
+----------------------------------------
+Risk Level: LOW
+Created: 2026-07-26 17:28:02
+Modified: 2026-07-26 17:28:23
+Accessed: 2026-07-28 13:23:11
+Findings:
+
+----------------------------------------
+EVENT LOG ANALYSIS
+----------------------------------------
+Risk Level: HIGH
+Findings:
+- Event ID 1102 detected: Security audit log may have been cleared.
+
+----------------------------------------
+HASH ANALYSIS
+----------------------------------------
+SHA-256: None
+
+----------------------------------------
+DELETION / EVIDENCE ANALYSIS
+----------------------------------------
+Risk Level: LOW
+Findings:
+----------------------------------------
+USB DEVICE ANALYSIS
+----------------------------------------
+Risk Level: LOW
+Findings:
+
+
+========================================
+              END OF REPORT
+========================================

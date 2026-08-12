@@ -1,0 +1,53 @@
+{
+    "AFDS Report": {
+        "evidence_file": "C:\\Users\\HP\\Downloads\\AFDS\\evidence\\test_folder\\test_event_log.txt",
+        "analysis_time": "2026-07-29 13:41:57",
+        "overall_risk_score": 20.0,
+        "overall_risk_level": "LOW"
+    },
+    "timestamp_analysis": {
+        "status": "SUCCESS",
+        "file_path": "evidence\\test_folder\\test_event_log.txt",
+        "created": "2026-07-26 17:28:02",
+        "modified": "2026-07-26 17:28:23",
+        "accessed": "2026-07-28 13:23:11",
+        "risk_level": "LOW",
+        "findings": []
+    },
+    "event_log_analysis": {
+        "status": "SUCCESS",
+        "file": "evidence\\test_folder\\test_event_log.txt",
+        "risk_level": "HIGH",
+        "findings": [
+            "Event ID 1102 detected: Security audit log may have been cleared."
+        ]
+    },
+    "hash_analysis": {
+        "status": "SUCCESS",
+        "file": "evidence\\test_folder\\test_event_log.txt",
+        "sha256_hash": "d367a465210f6a5f47a216782ec785faa3fec0b0818baef71d834181756f1117"
+    },
+    "USB Analysis": {
+        "risk_level": "LOW",
+        "findings": []
+    },
+    "deletion_analysis": {
+        "risk_level": "LOW",
+        "findings": []
+    },
+    "Metadata Analysis": {
+        "file_name": "test_event_log.txt",
+        "file_extension": ".txt",
+        "file_path": "C:\\Users\\HP\\Downloads\\AFDS\\evidence\\test_folder\\test_event_log.txt",
+        "file_size": 122,
+        "created": "2026-07-26 17:28:02",
+        "modified": "2026-07-26 17:28:23",
+        "accessed": "2026-07-29 13:41:51",
+        "read_only": false,
+        "hidden": false,
+        "risk_level": "LOW",
+        "findings": [
+            "No suspicious metadata detected."
+        ]
+    }
+}

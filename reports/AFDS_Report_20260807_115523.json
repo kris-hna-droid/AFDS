@@ -1,0 +1,26 @@
+{
+    "Case Number": "",
+    "Examiner": "",
+    "Description": "",
+    "Generated": "2026-08-07 11:55:23",
+    "Overall Risk": "LOW",
+    "Modules": {
+        "Event Log": {
+            "status": "SUCCESS",
+            "file": "C:\\Users\\HP\\Downloads\\AFDS\\evidence\\test_folder\\test_event_log.txt",
+            "risk_level": "HIGH",
+            "findings": [
+                "Event ID 1102 detected: Security audit log may have been cleared."
+            ]
+        },
+        "Timestamp": {},
+        "Metadata": {},
+        "USB": {},
+        "File": {},
+        "Browser": {},
+        "Registry": {},
+        "Encryption": {},
+        "Command": {},
+        "Disk Wiping": {}
+    }
+}

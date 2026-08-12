@@ -1,0 +1,3 @@
+HKLM\SYSTEM\CurrentControlSet\Enum\USBSTOR
+HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs
+HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall

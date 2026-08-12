@@ -1,0 +1,8 @@
+dir
+cd Documents
+ipconfig
+del secret.txt
+mkdir Test
+wevtutil cl System
+ping google.com
+cipher /w:C:

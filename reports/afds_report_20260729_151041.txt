@@ -1,0 +1,89 @@
+========================================
+       AFDS FORENSIC ANALYSIS REPORT
+========================================
+
+Evidence File:
+C:\Users\HP\Downloads\AFDS\evidence\browser_history.txt
+
+Analysis Time:
+2026-07-29 15:10:41
+
+----------------------------------------
+----------------------------------------
+METADATA ANALYSIS
+----------------------------------------
+Risk Level: LOW
+File Name: browser_history.txt
+Extension: .txt
+Size: 132 bytes
+Path: C:\Users\HP\Downloads\AFDS\evidence\browser_history.txt
+Read Only: False
+Hidden: False
+Findings:
+- No suspicious metadata detected.
+
+OVERALL RISK ASSESSMENT
+----------------------------------------
+Risk Score: 16.67
+Risk Level: LOW
+
+----------------------------------------
+TIMESTAMP ANALYSIS
+----------------------------------------
+Risk Level: LOW
+Created: 2026-07-29 15:06:46
+Modified: 2026-07-29 15:08:11
+Accessed: 2026-07-29 15:08:11
+Findings:
+
+----------------------------------------
+EVENT LOG ANALYSIS
+----------------------------------------
+Risk Level: LOW
+Findings:
+
+----------------------------------------
+HASH ANALYSIS
+----------------------------------------
+SHA-256: None
+
+----------------------------------------
+----------------------------------------
+FILE DETECTION ANALYSIS
+----------------------------------------
+Risk Level: LOW
+Total Files: 5
+Hidden Files: 0
+Empty Files: 0
+Large Files: 0
+Suspicious File Count: 0
+
+Suspicious Files:
+  None
+
+Findings:
+  No suspicious findings.
+----------------------------------------
+BROWSER HISTORY ANALYSIS
+----------------------------------------
+Risk Level: HIGH
+Visited Sites: 6
+Suspicious Entries: 1
+
+Entries:
+- https://torproject.org
+
+Findings:
+- 1 suspicious browser history entries detected.
+
+
+----------------------------------------
+USB DEVICE ANALYSIS
+----------------------------------------
+Risk Level: LOW
+Findings:
+
+
+========================================
+              END OF REPORT
+========================================

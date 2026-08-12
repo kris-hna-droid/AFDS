@@ -1,0 +1,20 @@
+BleachBit installed
+SDelete installed
+sdelete.exe executed
+bleachbit.exe executed
+cipher /w:C: executed
+format.exe D: /Q
+Secure deletion detected
+Disk wipe operation completed
+Free space overwritten
+Zero-filled sectors found
+Random data overwrite detected
+Partition formatted
+Master File Table modified
+NTFS journal cleared
+Recycle Bin emptied
+Temporary files securely deleted
+Volume shadow copies deleted
+Windows Event Logs cleared
+Audit logs removed
+File system metadata altered

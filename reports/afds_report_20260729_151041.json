@@ -1,0 +1,66 @@
+{
+    "AFDS Report": {
+        "evidence_file": "C:\\Users\\HP\\Downloads\\AFDS\\evidence\\browser_history.txt",
+        "analysis_time": "2026-07-29 15:10:41",
+        "overall_risk_score": 16.67,
+        "overall_risk_level": "LOW"
+    },
+    "timestamp_analysis": {
+        "status": "SUCCESS",
+        "file_path": "evidence\\browser_history.txt",
+        "created": "2026-07-29 15:06:46",
+        "modified": "2026-07-29 15:08:11",
+        "accessed": "2026-07-29 15:08:11",
+        "risk_level": "LOW",
+        "findings": []
+    },
+    "event_log_analysis": {
+        "status": "SUCCESS",
+        "file": "evidence\\browser_history.txt",
+        "risk_level": "LOW",
+        "findings": []
+    },
+    "hash_analysis": {
+        "status": "SUCCESS",
+        "file": "evidence\\browser_history.txt",
+        "sha256_hash": "0dc60aad7be624c7d52855f9fe86c084144ad41fe76b824c6da22798d111d8ec"
+    },
+    "USB Analysis": {
+        "risk_level": "LOW",
+        "findings": []
+    },
+    "deletion_analysis": {
+        "risk_level": "LOW",
+        "findings": [],
+        "total_files": 5,
+        "hidden_files": 0,
+        "empty_files": 0,
+        "large_files": 0,
+        "suspicious_files": []
+    },
+    "Metadata Analysis": {
+        "file_name": "browser_history.txt",
+        "file_extension": ".txt",
+        "file_path": "C:\\Users\\HP\\Downloads\\AFDS\\evidence\\browser_history.txt",
+        "file_size": 132,
+        "created": "2026-07-29 15:06:46",
+        "modified": "2026-07-29 15:08:11",
+        "accessed": "2026-07-29 15:10:41",
+        "read_only": false,
+        "hidden": false,
+        "risk_level": "LOW",
+        "findings": [
+            "No suspicious metadata detected."
+        ]
+    },
+    "browser_history_analysis": {
+        "risk_level": "HIGH",
+        "visited_sites": 6,
+        "suspicious_entries": [
+            "https://torproject.org"
+        ],
+        "findings": [
+            "1 suspicious browser history entries detected."
+        ]
+    }
+}

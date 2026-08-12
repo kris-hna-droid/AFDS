@@ -1,0 +1,357 @@
+============================================================
+AFDS - COMPLETE MODULE TEST DATA
+============================================================
+
+CASE NUMBER: AFDS-TEST-001
+EXAMINER: Test Examiner
+CASE DESCRIPTION: Synthetic test evidence for testing all AFDS forensic modules.
+
+============================================================
+1. EVENT LOG ANALYSIS
+============================================================
+
+2026-08-10 09:00:00 INFO System startup
+2026-08-10 09:01:15 INFO User login: test_user
+2026-08-10 09:03:10 INFO Security audit service started
+2026-08-10 09:05:21 WARNING Audit log service stopped
+2026-08-10 09:05:45 WARNING Event log cleared
+2026-08-10 09:06:02 INFO Audit logging restarted
+2026-08-10 09:07:30 WARNING Previous audit records unavailable
+2026-08-10 09:10:00 INFO File accessed: confidential_report.docx
+
+TEST INDICATORS:
+Event Log Cleared
+Audit Log Cleared
+Security Log Cleared
+Audit Service Stopped
+Previous Records Missing
+
+
+============================================================
+2. TIMESTAMP ANALYSIS
+============================================================
+
+FILE: normal_document.txt
+
+Created:
+2026-08-10 10:00:00
+
+Modified:
+2026-08-10 10:05:00
+
+Accessed:
+2026-08-10 10:06:00
+
+
+FILE: suspicious_document.txt
+
+Created:
+2026-08-10 14:00:00
+
+Modified:
+2026-08-10 13:30:00
+
+Accessed:
+2026-08-10 14:05:00
+
+TEST INDICATOR:
+Modification time is earlier than creation time.
+
+
+============================================================
+3. METADATA ANALYSIS
+============================================================
+
+FILE NAME: confidential_report.docx
+
+Author: Test Examiner
+Last Modified By: Unknown_User
+Company: AFDS Test Lab
+Title: Confidential Test Report
+Subject: Digital Forensics
+Comments: Synthetic forensic evidence
+Application: Microsoft Word
+Revision: 7
+Created: 2026-08-10
+Modified: 2026-08-10
+
+SUSPICIOUS METADATA:
+
+Author: Unknown
+Last Modified By: Unknown_User
+Company: Unknown
+Revision: 99
+
+
+============================================================
+4. USB ARTIFACT ANALYSIS
+============================================================
+
+USB DEVICE:
+
+Device Name: TEST-USB-001
+Vendor: TestVendor
+Product: Test Removable Storage
+Serial Number: USBTEST12345
+Device Type: Removable Storage
+Drive Letter: E:
+Mount Point: E:\
+First Connected: 2026-08-10 08:30:00
+Last Connected: 2026-08-10 09:30:00
+Removable Media: TRUE
+Status: Connected
+
+USBSTOR\Disk&Ven_TestVendor&Prod_Test_USB
+
+Serial Number:
+USBTEST12345
+
+Mount Status:
+TRUE
+
+
+============================================================
+5. FILE DETECTION
+============================================================
+
+NORMAL FILE:
+normal_document.txt
+
+HIDDEN FILE:
+.hidden_test.txt
+
+EMPTY FILE:
+empty_file.txt
+
+TEMPORARY FILE:
+deleted_artifact.tmp
+
+SUSPICIOUS FILE:
+suspicious_tool.exe
+
+ENCRYPTED FILE:
+encrypted_test.enc
+
+ARCHIVE:
+confidential_test.zip
+
+ADDITIONAL TEST FILES:
+
+keylogger_test.exe
+password_dump.txt
+credential_test.dat
+wipe_test.tmp
+secure_delete_test.exe
+hidden_archive_test.zip
+
+FILE STATISTICS:
+
+Total Files: 12
+Hidden Files: 1
+Empty Files: 1
+Large Files: 1
+Suspicious Files: 6
+
+
+============================================================
+6. BROWSER HISTORY ANALYSIS
+============================================================
+
+BROWSER HISTORY:
+
+2026-08-10 09:00:00
+URL: https://example.com/
+Title: Example
+Visit Count: 4
+
+2026-08-10 09:05:00
+URL: https://www.wikipedia.org/
+Title: Wikipedia
+Visit Count: 8
+
+2026-08-10 09:10:00
+URL: https://github.com/
+Title: GitHub
+Visit Count: 6
+
+2026-08-10 09:15:00
+URL: https://test.invalid/download-tool
+Title: Suspicious Test Download
+Visit Count: 2
+
+2026-08-10 09:20:00
+URL: https://localhost/admin
+Title: Local Admin Test
+Visit Count: 3
+
+2026-08-10 09:25:00
+URL: https://files.example.com/confidential.zip
+Title: Confidential Test Archive
+Visit Count: 1
+
+
+============================================================
+7. ENCRYPTION ANALYSIS
+============================================================
+
+FILE:
+encrypted_test.enc
+
+Encryption Status:
+ENCRYPTED
+
+Encryption Algorithm:
+AES-256
+
+Encrypted Container:
+TRUE
+
+Password Protected:
+TRUE
+
+Key File:
+encryption_key_test.dat
+
+Additional Indicators:
+
+ENCRYPTED_CONTENT
+PASSWORD_PROTECTED_TEST
+ENCRYPTED_ARCHIVE
+ENCRYPTION_ENABLED
+
+
+============================================================
+8. COMMAND HISTORY ANALYSIS
+============================================================
+
+COMMAND HISTORY:
+
+2026-08-10 09:12:00
+whoami
+
+2026-08-10 09:12:10
+ipconfig /all
+
+2026-08-10 09:13:00
+wevtutil cl System
+
+2026-08-10 09:14:00
+cipher /w:C:\TestEvidence
+
+2026-08-10 09:15:00
+powershell Get-History
+
+2026-08-10 09:16:00
+del /f /q suspicious_tool.exe
+
+ADDITIONAL COMMANDS:
+
+cmd.exe /c test_command
+powershell.exe -Command "Get-History"
+wevtutil cl Security
+cipher /w:C:\TestEvidence
+del /f /q test_file.tmp
+
+
+============================================================
+9. REGISTRY ANALYSIS
+============================================================
+
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\AFDS_Test]
+
+"TestValue"="SuspiciousTestValue"
+
+"RunCommand"="cmd.exe /c test_command"
+
+"USBDevice"="USBTEST12345"
+
+"EncryptionTool"="TEST_ENCRYPTION_MARKER"
+
+"DiskWipeTool"="TEST_WIPE_MARKER"
+
+
+[HKEY_CURRENT_USER\Software\AFDS_Test\Artifacts]
+
+"LastUSBConnection"="2026-08-10 09:30:00"
+
+"SuspiciousProgram"="suspicious_tool.exe"
+
+"HiddenArtifact"=".hidden_test.txt"
+
+"CommandHistory"="wevtutil cl System"
+
+
+============================================================
+10. DISK WIPING ANALYSIS
+============================================================
+
+DISK WIPING TEST INDICATORS:
+
+2026-08-10 09:14:00
+TEST MARKER: cipher /w
+
+2026-08-10 09:17:00
+TEST MARKER: sdelete
+
+2026-08-10 09:18:00
+TEST MARKER: secure erase
+
+2026-08-10 09:19:00
+TEST MARKER: disk wipe
+
+2026-08-10 09:20:00
+TEST MARKER: overwrite free space
+
+POSSIBLE TOOLS:
+
+sdelete
+secure erase
+cipher /w
+disk wipe
+overwrite free space
+
+STATUS:
+TEST DATA ONLY
+
+
+============================================================
+EXPECTED RESULTS
+============================================================
+
+EVENT LOG:
+Should detect event/audit log clearing indicators.
+
+TIMESTAMP:
+Should detect unusual timestamp relationships.
+
+METADATA:
+Should extract metadata and identify unusual/unknown values.
+
+USB:
+Should detect removable USB device artifacts.
+
+FILE:
+Should identify hidden, empty, temporary and suspicious files
+according to the capabilities of the module.
+
+BROWSER:
+Should detect and count browser-history entries.
+
+ENCRYPTION:
+Should detect encryption-related indicators.
+
+COMMAND HISTORY:
+Should detect suspicious command-history entries.
+
+REGISTRY:
+Should detect registry-style artifacts.
+
+DISK WIPING:
+Should detect secure deletion/wiping indicators.
+
+
+============================================================
+END OF TEST DATA
+============================================================

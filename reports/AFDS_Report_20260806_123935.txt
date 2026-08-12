@@ -1,0 +1,99 @@
+============================================================
+ANTI-FORENSICS DETECTION SUITE REPORT
+============================================================
+
+Case Number : 001
+Examiner : Krishna Choube
+Generated : 2026-08-06 12:39:35.065862
+Overall Risk : MEDIUM
+
+ABCDEFGH
+
+--------------------------------------------------
+Event Log
+--------------------------------------------------
+status : SUCCESS
+file : C:\Users\HP\Downloads\AFDS\evidence\test_folder\test_event_log.txt
+risk_level : HIGH
+findings : ['Event ID 1102 detected: Security audit log may have been cleared.']
+
+--------------------------------------------------
+Timestamp
+--------------------------------------------------
+status : SUCCESS
+file_path : C:\Users\HP\Downloads\AFDS\evidence\test_folder\test_event_log.txt
+created : 2026-07-26 17:28:02
+modified : 2026-07-26 17:28:23
+accessed : 2026-08-06 12:23:14
+risk_level : LOW
+findings : []
+
+--------------------------------------------------
+Metadata
+--------------------------------------------------
+file_name : test_event_log.txt
+file_extension : .txt
+file_path : C:\Users\HP\Downloads\AFDS\evidence\test_folder\test_event_log.txt
+file_size : 122
+created : 2026-07-26 17:28:02
+modified : 2026-07-26 17:28:23
+accessed : 2026-08-06 12:23:14
+read_only : False
+hidden : False
+risk_level : LOW
+findings : ['No suspicious metadata detected.']
+
+--------------------------------------------------
+USB
+--------------------------------------------------
+
+--------------------------------------------------
+File
+--------------------------------------------------
+risk_level : LOW
+findings : []
+total_files : 4
+hidden_files : 0
+empty_files : 0
+large_files : 0
+suspicious_files : []
+
+--------------------------------------------------
+Browser
+--------------------------------------------------
+risk_level : HIGH
+visited_sites : 6
+suspicious_entries : ['https://torproject.org']
+findings : ['1 suspicious browser history entries detected.']
+
+--------------------------------------------------
+Registry
+--------------------------------------------------
+risk_level : LOW
+registry_keys : 0
+suspicious_entries : []
+findings : ['analyze_registry() takes 0 positional arguments but 1 was given']
+
+--------------------------------------------------
+Encryption
+--------------------------------------------------
+risk_level : LOW
+encrypted : False
+encryption_type : None
+findings : ['No encryption detected.']
+
+--------------------------------------------------
+Command
+--------------------------------------------------
+risk_level : HIGH
+total_commands : 8
+suspicious_commands : ['del secret.txt', 'wevtutil cl System', 'cipher /w:C:']
+findings : ['3 suspicious command(s) detected.']
+
+--------------------------------------------------
+Disk Wiping
+--------------------------------------------------
+risk_level : LOW
+wiping_tools : []
+findings : ['No disk wiping tools found.']
+

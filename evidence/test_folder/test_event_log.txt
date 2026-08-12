@@ -1,0 +1,8 @@
+Event ID: 4624
+User logged in
+
+Event ID: 1102
+The audit log was cleared.
+
+Event ID: 4688
+A new process was created.

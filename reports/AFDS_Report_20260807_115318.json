@@ -1,0 +1,24 @@
+{
+    "Case Number": "001",
+    "Examiner": "Krishna ",
+    "Description": "ABCDEFGH\n",
+    "Generated": "2026-08-07 11:53:18",
+    "Overall Risk": "LOW",
+    "Modules": {
+        "Event Log": {
+            "risk_level": "LOW",
+            "findings": [
+                "[Errno 13] Permission denied: 'C:\\\\Users\\\\HP\\\\Downloads\\\\AFDS\\\\evidence\\\\test_folder'"
+            ]
+        },
+        "Timestamp": {},
+        "Metadata": {},
+        "USB": {},
+        "File": {},
+        "Browser": {},
+        "Registry": {},
+        "Encryption": {},
+        "Command": {},
+        "Disk Wiping": {}
+    }
+}
