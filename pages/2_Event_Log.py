@@ -40,7 +40,7 @@ st.sidebar.divider()
 
 st.sidebar.success("System Status: Ready")
 
-st.title("Event Log Tampering Detection")
+st.title("Event Log Analysis")
 st.write(
     "Analyze Windows Event Logs for possible tampering or suspicious modifications."
 )
