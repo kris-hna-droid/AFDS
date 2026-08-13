@@ -7,3 +7,4 @@ streamlit
 pytsk3
 python-registry
 pillow
+pyhton-evtx
