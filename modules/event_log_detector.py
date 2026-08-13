@@ -24,7 +24,8 @@ EVENT_DEFINITIONS = {
     "1102": ("Security audit log was cleared", "HIGH"),
     "7045": ("New Windows service installed", "HIGH"),
     "104": ("System event log was cleared", "HIGH"),
-    "10016": ("DistributedCOM permission-related event", "LOW")
+    "10016": ("DistributedCOM permission-related event", "LOW"),
+    "300": ("Office related alert or notification", "LOW")
 }
 
 
